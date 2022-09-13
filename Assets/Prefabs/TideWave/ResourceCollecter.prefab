@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8469034865009377554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8469034865009377552}
+  - component: {fileID: 8469034865009377553}
+  - component: {fileID: 5859758321230243768}
+  m_Layer: 2
+  m_Name: ResourceCollecter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8469034865009377552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8469034865009377554}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8469034865009377553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8469034865009377554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862d7a2f86abf84478a211ffd4c953b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceSprites:
+  - {fileID: 833890460451493716, guid: ff60dd8b3b6a0e846a3747afad2e65bd, type: 3}
+  - {fileID: 2826741468177476793, guid: e24b715c168b1434abd6a07d3257c2c2, type: 3}
+  - {fileID: 5493310700696598704, guid: 199978357e22c5b4b83d9bb51e1440a5, type: 3}
+  managementSO: {fileID: 0}
+--- !u!114 &5859758321230243768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8469034865009377554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf91bcb3ad6ee7468d308787e8c1b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceSprites: []
+  managementSO: {fileID: 0}

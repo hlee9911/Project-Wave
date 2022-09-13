@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2970575507799434468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2970575507799434470}
+  - component: {fileID: 2970575507799434471}
+  m_Layer: 0
+  m_Name: TurretAudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2970575507799434470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2970575507799434468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2970575507799434471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2970575507799434468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4043ef8d2d57cb34fb5a62a8f7d88a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Sand Shoot
+    clip: {fileID: 8300000, guid: 5be1441ea9a63cc4185263e2d66d63c7, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Sand Hit
+    clip: {fileID: 8300000, guid: 73193c7c29bc73546ae730a0b33fcff6, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Stick Hit
+    clip: {fileID: 8300000, guid: a24e342d1f208cf4197c8ef398732666, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Stick Shoot
+    clip: {fileID: 8300000, guid: 1734e01e4188a2d45a63a68ac9e4e2bc, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Water Shoot
+    clip: {fileID: 8300000, guid: 49041326eb6a5d3439bd87c14673410b, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Clam Shoot
+    clip: {fileID: 8300000, guid: 76f4c06376ae7b24098aec05520a7e20, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Clam Hit
+    clip: {fileID: 8300000, guid: 8092f1fb8ceeea542be1ff30238c5fc7, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Oil Hit
+    clip: {fileID: 8300000, guid: da8f34e817f47b14d9eb9e91713568f4, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Oil reticle
+    clip: {fileID: 8300000, guid: 7e57ad3e94754634bbd18be59fc7ebe5, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Oil Shoot
+    clip: {fileID: 8300000, guid: d03ab4869dfab4341b580593f0612ca7, type: 3}
+    volume: 0.25
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Collect
+    clip: {fileID: 8300000, guid: a4ef7a86415ec4c43ab83a8042392bd0, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Sand Collect
+    clip: {fileID: 8300000, guid: 9f6f1072d6580944abd1f8b42a798680, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Wave Approach
+    clip: {fileID: 8300000, guid: 9ee6cd6d78169df43bbeef03d3815d7d, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
+  - name: Wave Recede
+    clip: {fileID: 8300000, guid: 33ffadb1b530ed94092700917ce3262b, type: 3}
+    volume: 0.5
+    pitch: 0.1
+    source: {fileID: 0}
